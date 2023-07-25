@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+* {
+padding:0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+background-color:#f0f0f0;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+}
+.logo{
+
+text-decoration: none;
+color: #3a6cfa;
+font-weight:700;
+font-size: 1.8em;
+text-transform: uppercase;
+
+}
+
+.logo b{
+
+color: #123;
+
+}
+
+.navigation a {
+color: #3a6cfa;
+text-decoration: none;
+padding-left: 30px;
+font-size: 1.4em;
+font-weight: 600;
+}
+
+.navigation a:hover{
+color: #601cfc;
+transition: margin-right 2s ease-in-out .5s;
+}
+section{
+padding: 100px 200px;
+}
+.main{
+min-height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+background: url(photo-1553095066-5014bc7b7f2d.jfif) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.main h2{
+color: #FFF;
+font-weight:600;
+font-size: 1.5em;
+}
+
+.main h2 b{
+color: orangered;
+
+
+
+}
+
+.main h2 span{
+font-size: 3em;
+color: #4e9eff;
+font-weight: 600;
+display: inline-block;
+margin-top: 10px;
+}
+
+.main h3{
+
+color: #FFF;
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.main-btn{
+color: #FFF;
+text-decoration: none;
+background-color: #3a6cfa;
+font-weight: 500;
+font-size: 1.1em;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.5s ease;
+}
+.main-btn:hover{
+color: #0a49f6;
+transform: scale(1.1);
+}
+
+.social-media a{
+color: #FFF;
+font-size: 1.7em;
+padding-right: 11px;
+}
+
+.social-media a:hover{
+
+color: black;
+transition: 0.5s ease;
+}
+
+
+#title{
+display: flex;
+justify-content: center;
+color: #0a49f6;
+font-size: 2.2em;
+font-weight: 800;
+margin-bottom: 40px;
+}
+.content{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.card{
+
+background-color: #fff;
+width: 21.25em;
+box-shadow: 0 5px 25px rgb(1 1 1/15%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.card:hover{
+transform: scale(1.1);
+}
+
+.icon{
+color: #0a49f6;
+font-size: 8em;
+text-align: center;
+}
+
+.info{
+text-align: center;
+}
+
+
+
+.info h2{
+color: #4e9eff;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
